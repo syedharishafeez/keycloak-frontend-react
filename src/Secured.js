@@ -62,7 +62,7 @@ class Secured extends Component {
               Call Secured Backend
             </button>
             <br />
-            <p>{this.state.showMessage}</p>
+            <p> {this.state.showMessage} </p>
           </div>
         );
       else return <div>Unable to authenticate!</div>;
